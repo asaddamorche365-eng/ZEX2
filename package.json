@@ -1,0 +1,22 @@
+{
+  "name": "zex-server",
+  "version": "1.0.0",
+  "description": "Z EX backend — auth, feature flags, AI reply generation, admin control. Replaces direct client-side Firebase REST + client-side AI calls.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.3.1"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
